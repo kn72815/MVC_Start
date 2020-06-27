@@ -9,7 +9,7 @@ namespace MVC_Start.Controllers
 {
   public class HomeController : Controller
   {
-    public IActionResult Index()
+    public IActionResult Index(int id)
     {
       return View();
     }
